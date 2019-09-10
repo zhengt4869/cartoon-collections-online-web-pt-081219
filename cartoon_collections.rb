@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(array)
   array.collect{|word|
-    first = word.shift
+    first = word.shift.capita
   }
 end
 
